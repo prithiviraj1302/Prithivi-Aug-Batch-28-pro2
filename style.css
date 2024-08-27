@@ -1,0 +1,91 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    color: white;
+}
+.video-container
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.video-content
+{
+z-index: 100;
+}
+.video-content a{
+background-color: blue;
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+text-decoration: none;
+margin-left: 30px;
+}
+.video-content a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+#Story1{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+#Story1 h1{
+    color: darkturquoise;
+    text-decoration: underline;
+}
+#Story1 p{
+    line-height: 2;
+    
+}
+#Story1 p::first-letter{
+    color: crimson;
+    font-size: 60px;
+}
+#Story2{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+#Story2 h1 ,h2{
+    color: darkturquoise;
+    text-decoration: underline;
+}
+#Story2 p{
+    line-height: 2;
+}
+#Story2 p::first-letter{
+    color: crimson;
+    font-size: 60px;
+}
+#Like{
+    
+    line-height: 2;
+    text-align: center;
+ 
+}
+#Like h1{
+    color: cornflowerblue;
+}
+#Like p{
+    color: goldenrod;
+    font-size: medium;
+}
+#Like h2{
+    color: darkblue;
+}
+#Like h3{
+    color: tomato;
+}
+#Like i{
+   margin-left: 5px;
+   color: blue;
+    
+}

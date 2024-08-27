@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+label
+{
+    display: block;
+}
+body{
+    background-color:pink;
+}
+form{ 
+    width: 30%;
+    position: absolute;
+    left: 20%;
+}
+legend{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
